@@ -5,7 +5,7 @@ hooks:
   BeforeInstall:
   
   AfterInstall:
-    - location: scripts/gitclone.sh
-  ApplicationStart:
     
+  ApplicationStart:
+    - location: scripts/gitclone.sh
   ApplicationStop:
