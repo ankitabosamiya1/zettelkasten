@@ -1,0 +1,12 @@
+version: 0.0
+os: linux
+files:
+  hooks:
+  BeforeInstall:
+    - git clone https://github.com/ankitadhandha/zettelkasten.git
+  AfterInstall:
+    - neuron rib -w
+  ApplicationStart:
+    
+  ApplicationStop:
+    
