@@ -3,9 +3,9 @@ os: linux
 files:
 hooks:
   BeforeInstall:
-    - location: scripts/gitclone.sh
+  
   AfterInstall:
-    
+    - location: scripts/gitclone.sh
   ApplicationStart:
     
   ApplicationStop:
