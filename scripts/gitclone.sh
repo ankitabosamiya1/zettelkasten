@@ -7,6 +7,6 @@ neuron rib -w
 ls
 pwd
 cd .neuron/output
-aws s3 cp . s3://common-neuron/ --recursive --exclude ".git*" --exclude ".neuron*" --exclude "scripts" --acl public-read
+aws s3 cp . s3://common-neuron/ --recursive --exclude ".git*" --exclude ".neuron*" --exclude "scripts" 
 
 
