@@ -3,6 +3,4 @@ rm -rf zettelkasten
 git clone https://github.com/ankitadhandha/zettelkasten
 cd zettelkasten
 chmod -R 777 .
-neuron rib -w
-
 
