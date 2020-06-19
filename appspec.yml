@@ -1,12 +1,11 @@
 version: 0.0
 os: linux
 files:
-  hooks:
+hooks:
   BeforeInstall:
     - location: scripts/gitclone.sh
   AfterInstall:
-    - neuron rib -w
+    
   ApplicationStart:
     
   ApplicationStop:
-    
