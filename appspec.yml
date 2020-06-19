@@ -3,7 +3,7 @@ os: linux
 files:
   hooks:
   BeforeInstall:
-    - git clone https://github.com/ankitadhandha/zettelkasten.git
+    - git clone https://github.com/ankitadhandha/zettelkasten
   AfterInstall:
     - neuron rib -w
   ApplicationStart:
