@@ -9,4 +9,3 @@ hooks:
   ApplicationStart:
     - location: scripts/gitclone.sh
   ApplicationStop:
-    - location: scripts/neuron.sh
