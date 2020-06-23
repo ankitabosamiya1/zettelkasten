@@ -4,5 +4,5 @@ sudo chmod -R 777 .
 #cd /tmp/home/ec2-user/zettelkasten
 pwd
 ls
-neuron rib -w
+`neuron rib -w`
 
