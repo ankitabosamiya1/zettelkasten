@@ -13,17 +13,17 @@ hooks:
     - location: scripts/pwd1.sh
       runas: ec2-user
   BeforeInstall:
-    - location: scripts/pwd1.sh
-      runas: ec2-user
+    #- location: scripts/pwd1.sh
+    #  runas: ec2-user
   AfterInstall:
-     - location: scripts/pwd1.sh
-       runas: ec2-user 
+    # - location: scripts/pwd1.sh
+    #   runas: ec2-user 
   ApplicationStart:
-    - location: scripts/pwd1.sh
-      runas: ec2-user
+    #- location: scripts/pwd1.sh
+    #  runas: ec2-user
   ValidateService:
-    - location: scripts/pwd1.sh
-      runas: ec2-user 
+    #- location: scripts/pwd1.sh
+    #  runas: ec2-user 
 
  #   - location: /home/ec2-user/zettelkasten/scripts/gitclone.sh
  #     runas: ec2-user
