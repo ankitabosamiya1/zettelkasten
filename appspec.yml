@@ -10,10 +10,10 @@ permissions:
      group: ec2-user
 hooks:
   BeforeInstall:
-    - location: scripts/gitclone.sh
-      runas: ec2-user
+#    - location: scripts/gitclone.sh
+ #     runas: ec2-user
   AfterInstall:
     
-  ApplicationStart:
-
-  ApplicationStop:
+  ValidateService:
+    - location: scripts/gitclone.sh
+      runas: ec2-user
