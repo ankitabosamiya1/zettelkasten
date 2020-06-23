@@ -15,5 +15,5 @@ hooks:
   AfterInstall:
     
   ValidateService:
-    - location: scripts/gitclone.sh
+    - location: /home/ec2-user/zettelkasten/scripts/gitclone.sh
       runas: ec2-user
