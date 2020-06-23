@@ -1,3 +1,4 @@
-#cd /home/ec2-user/zettelkasten
+cd /home/ec2-user/zettelkasten
+ls
 neuron rib -w
 
