@@ -13,7 +13,7 @@ hooks:
   #  - location: scripts/gitclone.sh
   #    runas: ec2-user
   AfterInstall:
-     - location: ./scripts/gitclone.sh
+     - location: scripts/gitclone.sh
        runas: ec2-user 
 #  ValidateService:
  #   - location: /home/ec2-user/zettelkasten/scripts/gitclone.sh
