@@ -1,3 +1,3 @@
 pwd
 ls
-neuron
+neuron rib -w
