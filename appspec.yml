@@ -10,8 +10,8 @@ permissions:
      group: ec2-user
 hooks:
   ApplicationStop:
-    - location: scripts/pwd1.sh
-      runas: ec2-user
+    #- location: scripts/pwd1.sh
+    #  runas: ec2-user
   BeforeInstall:
     - location: scripts/pwd1.sh
       runas: ec2-user
