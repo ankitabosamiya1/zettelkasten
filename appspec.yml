@@ -12,7 +12,8 @@ hooks:
   ApplicationStop:
     #- location: scripts/pwd1.sh
     #  runas: ec2-user
-  BeforeInstall:
+  
+BeforeInstall:
     - location: scripts/pwd1.sh
       runas: ec2-user
   AfterInstall:
